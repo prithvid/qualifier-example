@@ -16,7 +16,7 @@ import javax.inject.Named;
 public class Seller {
 
     @Inject
-    @General
+    @Special
     Product product;
 
     public Product getProduct() {
